@@ -1,3 +1,31 @@
+struct Rectangle {
+    width: f64, //width of the rectangle
+    height: f64 //height of the rectangle
+}
+
+impl Rectangle {
+    fn new(width: f64, height: f64) -> Rectangle { //constructor method to create a new Rectangle instance
+        rectangle {width, height} //returns a new Rectangle instance with the given width and height
+    }
+    fn area(&self) -> f64 { //method to calculate the area of the rectangle
+        //--
+        //--
+    }
+    fn perimeter(&self) -> f64 { //method to calculate the perimeter of the rectangle
+        //--
+        //--
+    }
+    fn is_square(&self) -> bool { //method to check if the rectangle is a square
+        //--
+        //--
+    }
+}
+
 fn main() {
-    println!("Hello, world!");
+    let rect = Rectangle::new(10.0, 5.0); //creates a new Rectangle instance with width 10.0 and height 5.0
+    println!("Area: {}", rect.area()); //calls the area method to calculate and print the area of the rectangle
+    println!("Perimeter: {}", rect.perimeter()); //calls the perimeter method to calculate and print the perimeter of the rectangle
+    println!("Is Square? {}", rect.is_square()); //calls the is_square method to check and print if the rectangle is a square
+    assert!(Rectangle::new(5.0, 5.0).is_sqaure()); //asserts that a rectangle with equal width and height is a square
+    assert!(!Rectangle::new(5.0, 6.0).is_sqaure()); //asserts that a rectangle with unequal width and height is not a square
 }
