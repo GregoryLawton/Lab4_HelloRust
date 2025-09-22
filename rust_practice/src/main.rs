@@ -46,7 +46,7 @@ impl Circle {
 }
 
 fn main() {
-    let circle = Circle::new(2.0); //creates a new Circle instance with radius 2.0
+    let circle = Circle::new(5.0); //creates a new Circle instance with radius 2.0
     println!("Area: {}", circle.area()); //calls the area method to calculate and print the area of the circle
     println!("circumference: {}", circle.circumference()); //calls the circumference method to calculate and print the circumference of the circle
 }
