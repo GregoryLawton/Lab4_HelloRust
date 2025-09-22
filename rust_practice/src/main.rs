@@ -14,8 +14,7 @@ impl Rectangle {
         self.width * 2.0 + self.height * 2.0 //returns the perimeter by adding twice the width and twice the height
     }
     fn is_square(&self) -> bool { //method to check if the rectangle is a square
-        //--
-        //--
+        self.width == self.height //returns true if width and height are equal, otherwise false
     }
 }
 
