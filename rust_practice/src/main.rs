@@ -38,15 +38,17 @@ impl Circle {
         Circle {radius}
     }
     fn area(&self) -> f64 {
-        //-
+        3.14 * (self.radius * self.radius)
     }
     fn circumference(&self) -> f64 {
-        //-
+        2.0 * 3.14 * self.radius
     }
 }
 
 fn main() {
     let circle = Circle::new();
-    println!("Area: {}", circle.area()); 
-    println!("circumference: {}", circle.circumference());
+    println!("Area: {}", circle.area()); //calls the area method to calculate and print the area of the circle
+    println!("circumference: {}", circle.circumference()); //calls the circumference method to calculate and print the circumference of the circle
+    assert_eq!(Circle::new(2.0).area(), 12.56); //asserts that a circle with radius 2.0 has area 12.56
+    assert_eq!(Circle::new(2.0).circumference(), 12.56); //asserts that a circle with radius 2.0 has a circumference 12.56
 }
