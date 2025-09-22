@@ -8,8 +8,7 @@ impl Rectangle {
         rectangle {width, height} //returns a new Rectangle instance with the given width and height
     }
     fn area(&self) -> f64 { //method to calculate the area of the rectangle
-        //--
-        //--
+        self.width * self.height //returns the area by multiplying width and height
     }
     fn perimeter(&self) -> f64 { //method to calculate the perimeter of the rectangle
         //--
