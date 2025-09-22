@@ -1,0 +1,1 @@
+/Users/greglawton/Desktop/School/2025-2026/COSC\ 455/Labs/Lab\ 4/GregLawtonLab4/Lab4_HelloRust/rust_practice/target/debug/rust_practice: /Users/greglawton/Desktop/School/2025-2026/COSC\ 455/Labs/Lab\ 4/GregLawtonLab4/Lab4_HelloRust/rust_practice/src/main.rs

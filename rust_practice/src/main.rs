@@ -1,3 +1,4 @@
+/* Question 2 -Rectangle
 struct Rectangle {
     width: f64, //width of the rectangle
     height: f64 //height of the rectangle
@@ -26,3 +27,4 @@ fn main() {
     assert!(Rectangle::new(5.0, 5.0).is_square()); //asserts that a rectangle with equal width and height is a square
     assert!(!Rectangle::new(5.0, 6.0).is_square()); //asserts that a rectangle with unequal width and height is not a square
 }
+*/    
