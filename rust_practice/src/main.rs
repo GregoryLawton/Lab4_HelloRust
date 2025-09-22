@@ -23,6 +23,6 @@ fn main() {
     println!("Area: {}", rect.area()); //calls the area method to calculate and print the area of the rectangle
     println!("Perimeter: {}", rect.perimeter()); //calls the perimeter method to calculate and print the perimeter of the rectangle
     println!("Is Square? {}", rect.is_square()); //calls the is_square method to check and print if the rectangle is a square
-    assert!(Rectangle::new(5.0, 5.0).is_sqaure()); //asserts that a rectangle with equal width and height is a square
-    assert!(!Rectangle::new(5.0, 6.0).is_sqaure()); //asserts that a rectangle with unequal width and height is not a square
+    assert!(Rectangle::new(5.0, 5.0).is_square()); //asserts that a rectangle with equal width and height is a square
+    assert!(!Rectangle::new(5.0, 6.0).is_square()); //asserts that a rectangle with unequal width and height is not a square
 }
