@@ -28,3 +28,25 @@ fn main() {
     assert!(!Rectangle::new(5.0, 6.0).is_square()); //asserts that a rectangle with unequal width and height is not a square
 }
 */    
+
+struct Circle {
+    radius: f64, //radius of the circle //assume radius is > 0
+}
+
+impl Circle {
+    fn new(radius: f64) -> Circle {
+        Circle {radius}
+    }
+    fn area(&self) -> f64 {
+        //-
+    }
+    fn circumference(&self) -> f64 {
+        //-
+    }
+}
+
+fn main() {
+    let circle = Circle::new();
+    println!("Area: {}", circle.area()); 
+    println!("circumference: {}", circle.circumference());
+}
