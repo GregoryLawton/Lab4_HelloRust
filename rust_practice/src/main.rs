@@ -5,7 +5,7 @@ struct Rectangle {
 
 impl Rectangle {
     fn new(width: f64, height: f64) -> Rectangle { //constructor method to create a new Rectangle instance
-        rectangle {width, height} //returns a new Rectangle instance with the given width and height
+        Rectangle {width, height} //returns a new Rectangle instance with the given width and height
     }
     fn area(&self) -> f64 { //method to calculate the area of the rectangle
         self.width * self.height //returns the area by multiplying width and height
