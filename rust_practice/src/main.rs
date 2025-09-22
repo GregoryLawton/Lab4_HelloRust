@@ -11,8 +11,7 @@ impl Rectangle {
         self.width * self.height //returns the area by multiplying width and height
     }
     fn perimeter(&self) -> f64 { //method to calculate the perimeter of the rectangle
-        //--
-        //--
+        self.width * 2.0 + self.height * 2.0 //returns the perimeter by adding twice the width and twice the height
     }
     fn is_square(&self) -> bool { //method to check if the rectangle is a square
         //--
