@@ -37,11 +37,11 @@ impl Circle {
     fn new(radius: f64) -> Circle {
         Circle {radius}
     }
-    fn area(&self) -> f64 {
-        3.14 * (self.radius * self.radius)
+    fn area(&self) -> f64 { //method to calculate the area of the circle
+        3.14 * (self.radius * self.radius) //area = pi * radius^2
     }
-    fn circumference(&self) -> f64 {
-        2.0 * 3.14 * self.radius
+    fn circumference(&self) -> f64 { //method to calculate the circumference of the circle
+        2.0 * 3.14 * self.radius //circumference = 2 * pi * radius
     }
 }
 
